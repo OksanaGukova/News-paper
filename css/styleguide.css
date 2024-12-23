@@ -49,3 +49,22 @@ p {
   overflow-wrap: break-word;
     
 }
+
+.container {
+  width: 1440;
+  padding: 0 135px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}

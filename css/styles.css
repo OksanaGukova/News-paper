@@ -1,1 +1,82 @@
 @import './styleguide.css';
+
+.header-container {
+    display: grid;
+    column-gap: 274px;
+}
+
+.header-text-container {
+    display: grid;
+    grid-template-columns: 98px 181px 461px ;
+    gap: 16px;
+}
+
+.sun-container {
+    display: flex;
+gap: 7px;
+}
+
+.c-container {
+    display: flex
+}
+
+.clock-container {
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    gap: 12px;
+}
+
+.header-svg {
+    width: 16px;
+    height: 16px;
+}
+
+.c {
+width: 7px;
+height: 6px;
+}
+
+.svg-list {
+    width: 26px;
+height: 26px;
+ border-radius: 50%; /* Робить елемент круглим */
+    display: flex; /* Використовується для центрування */
+    align-items: center; /* Вирівнювання по вертикалі */
+    justify-content: center; /* Вирівнювання по горизонталі */
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+
+background-color: #1b7bfd;
+
+}
+
+.twitter {
+background-color:  #42c0f5;
+}
+
+.instagram {
+background-color:  #c23785;
+}
+
+.youtube {
+    background-color: #ef5043;
+}
+
+.header-text {
+ font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+color: #393939;
+}
+
+.header-button {
+    width: 96px;
+height: 42px;
+background: #f65050;
+color: #fff;
+font-weight: 400;
+font-size: 12px;
+
+}
