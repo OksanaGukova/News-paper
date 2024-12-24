@@ -1,14 +1,22 @@
 @import './styleguide.css';
 
+.header {
+margin-bottom: 26px; 
+ box-shadow: 0 1px 10px 0 rgba(246, 80, 80, 0.15);
+}
+
 .header-container {
     display: grid;
     column-gap: 274px;
+        grid-template-columns: 1fr 1fr;
+     
 }
 
 .header-text-container {
     display: grid;
     grid-template-columns: 98px 181px 461px ;
     gap: 16px;
+    align-items: center;
 }
 
 .sun-container {
@@ -79,4 +87,85 @@ color: #fff;
 font-weight: 400;
 font-size: 12px;
 
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    align-items: center;
+    gap: 17px;
+}
+
+.social-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-img-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 153px;
+    align-items: center;
+    position: relative;
+}
+
+
+    .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-23%, -50%);
+  text-align: center;
+  color: white;
+text-align: left;
+    display: flex;
+    align-content: center;
+    width: 771px;
+    padding: 16px 28px 16px 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main {
+    padding-bottom: 25px;
+}
+
+.main-header {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 151%;
+color: #fff;
+}
+
+.main-text {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 151%;
+color: #f65050;
+}
+
+.main-button {
+    width: 180px;
+height: 44px;
+background-color: #f65050;
+
+font-weight: 700;
+font-size: 18px;
+color: #fff;
+
+}
+
+.options-container {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+background: #393939;
 }
