@@ -165,7 +165,143 @@ color: #fff;
 
 }
 
+.options {
+    padding-bottom: 25px;
+}
+
 .options-container {
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 background: #393939;
+}
+
+.home {
+    
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+width: 75px;
+height: 60px;
+background: #f65050;
+
+}
+
+.options-button {
+    width: auto;
+background: #393939;
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+
+}
+
+.options-list {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.arrow-down {
+    width: 10px;
+    height: 6px;
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: 1fr 6px;
+        align-items: center;
+    gap: 8px;
+}
+
+.options-container {
+    display: flex;
+    gap: 80px;
+}
+
+.search-svg {
+    width: 12px;
+    height: 12px;
+}
+
+.search-text {
+
+font-weight: 300;
+font-size: 10px;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.search {
+    display: grid;
+    gap: 77px;
+    grid-template-columns: 47px 1fr;
+    padding: 25px 32px 25px 16px;
+  border-left: 0.50px solid rgba(255, 255, 255, 0.3);
+}
+
+.news-section-container {
+   gap: 15px;
+       display: grid;
+       grid-template-columns: 670px 1fr;
+}
+
+.friends-content {
+      position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-70%, -50%);
+    text-align: center;
+    color: white;
+    text-align: left;
+    display: grid
+;
+    grid-template-rows: 39px 1fr;
+    gap: 374px;
+    padding-left: 25px;
+    width: 478px;
+}
+
+.friends-container {
+      position: relative;
+}
+
+.business {
+ 
+font-weight: 400;
+font-size: 10px;
+color: #fff;
+width: 54px;
+height: 22px;
+}
+
+.friends-btn {
+    background: #08f;
+}
+
+.friends-text {
+   
+font-weight: 400;
+font-size: 12px;
+line-height: 101%;
+color: #fff;
+}
+
+.friends-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 36px;
+text-transform: capitalize;
+color: #fff;
+}
+
+.friends-txt {
+    display: grid;
+    gap: 6px;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 235px);
+    grid-template-rows: repeat(2, 278px);
+    gap: 14px;
+    box-sizing: content-box;
+  
 }

@@ -89,54 +89,75 @@
     <section class="options">
        <div class="container">
            <div class="options-container">
-                <ul>
-                    <li><button>Home</button></li>
-                    <li><button>International</button></li>
-                    <li><button>Sports</button></li>
-                    <li><button>Opinion</button></li>
-                    <li><button>Business</button></li>
-                    <li><button>Youth</button></li>
-                    <li><button>Entertainment</button></li>
-                    <li><button>Lifestyle</button></li>
-                    <li><button>Pages</button></li>
-                    <svg>
-                            <use href="">
+                <ul class="options-list">
+                    <li><button class="home">Home</button></li>
+                    <li><button class="options-button">International</button></li>
+                    <li><button class="options-button">Sports</button></li>
+                    <li><button class="options-button">Opinion</button></li>
+                    <li><button class="options-button">Business</button></li>
+                    <li><button class="options-button">Youth</button></li>
+                    <li><button class="options-button">Entertainment</button></li>
+                    <li><button class="options-button">Lifestyle</button></li>
+                    <li class="pages"><button class="options-button">Pages</button>
+                        <svg class="arrow-down">
+                            <use href="./img/sprite.svg#icon-arrow-down">
                             </use>
-                    </svg>
+                    </svg></li>
+                    
                     
                 </ul>
-                <p>Search for</p>
-                <svg>
-                    <use href="">
-                    </use>
-                </svg>
+                <div class="search">
+                    <p class="search-text">Search for</p>
+                    <svg class="search-svg">
+                        <use href="./img/sprite.svg#icon-find">
+                        </use>
+                    </svg>
+                </div>
            </div>
        </div>
     </section>
     <section class="news-section">
-        <img src="" alt="friends" width="670" height="570">
-        <button>Business</button>
-        <p>Craig Bator - 27 Dec 2020</p>
-        <h1>After all is said and done, more is
-        done</h1>
-         <img src="" alt="desctop" width="235" height="278">
-        <button>Business</button>
-        <p>Craig Bator - 27 Dec 2020</p>
-        <h3>They’re back! Kennedy Darling
-        named to return to</h3>
-         <img src="" alt="window" width="235" height="278">
-        <button>Business</button>
-        <p>Craig Bator - 27 Dec 2020</p>
-        <h3>Swiss authorities say Uber
-        drivers should</h3>
-         <img src="" alt="
-bulb" width="485" height="278">
-        <button>Business</button>
-        <p>Craig Bator - 27 Dec 2020</p>
-        <h2>Tourism in Dubai is booming by
-        international tourist</h2>
+      <div class="container">
+           <div class="news-section-container">
+              <div class="friends-container">
+                    <img src="./img/Image1-min.png" alt="friends" width="670" height="570">
+                    <div class="friends-content">
+                        <button class="business friends-btn">Business</button>
+                       <div class="friends-txt">
+                            <p class="friends-text">Craig Bator - 27 Dec 2020</p>
+                            <h1 class="friends-header">After all is said and done, more 
+                           is done</h1>
+                       </div>
+                    </div>
+              </div>
+                <div class="img-container">
+                  <div>
+                         <img src="./img/Image2-min.png" alt="desctop" width="235" height="278">
+                        <button>Business</button>
+                        <p>Craig Bator - 27 Dec 2020</p>
+                        <h3>They’re back! Kennedy Darling
+                        named to return to</h3>
+                  </div>
+                   <div>
+                         <img src="./img/Image3-min.png" alt="window" width="235" height="278">
+                        <button>Business</button>
+                        <p>Craig Bator - 27 Dec 2020</p>
+                        <h3>Swiss authorities say Uber
+                        drivers should</h3>
+                   </div>
+                 <div>
+                         <img src="./img/Image4-min.png" alt="
+                bulb" width="485" height="278">
+                        <button>Business</button>
+                        <p>Craig Bator - 27 Dec 2020</p>
+                        <h2>Tourism in Dubai is booming by
+                        international tourist</h2>
+                 </div>
+                </div>
+           </div>
+      </div>
     </section>
-    <section class="news-section">
+    <section class="dont-miss">
         <p>Don’t Miss</p>
         <button>All</button>
         <button>Lifestyle</button>
