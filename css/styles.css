@@ -7,7 +7,7 @@ margin-bottom: 26px;
 
 .header-container {
     display: grid;
-    column-gap: 274px;
+    column-gap: 260px;
         grid-template-columns: 1fr 1fr;
      
 }
@@ -185,6 +185,20 @@ background: #f65050;
 
 }
 
+
+.home::after {
+  content: "";
+  display: block;
+  width: 25px; /* Лінія спочатку невидима */
+  height: 2px;
+  background-color: white;
+  margin: 5px auto 0; /* Відступи для лінії */
+  transition: width 0.3s ease; /* Анімація появи лінії */
+}
+
+
+
+
 .options-button {
     width: auto;
 background: #393939;
@@ -237,6 +251,10 @@ color: rgba(255, 255, 255, 0.3);
   border-left: 0.50px solid rgba(255, 255, 255, 0.3);
 }
 
+.news-section {
+    padding-bottom: 50px;
+}
+
 .news-section-container {
    gap: 15px;
        display: grid;
@@ -244,18 +262,16 @@ color: rgba(255, 255, 255, 0.3);
 }
 
 .friends-content {
-      position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-        transform: translate(-70%, -50%);
+        transform: translate(-65%, -49%);
     text-align: center;
     color: white;
     text-align: left;
-    display: grid
-;
-    grid-template-rows: 39px 1fr;
+    display: grid;
+    grid-template-rows: 22px 1fr;
     gap: 374px;
-    padding-left: 25px;
     width: 478px;
 }
 
@@ -305,3 +321,196 @@ color: #fff;
     box-sizing: content-box;
   
 }
+
+.img-content {
+      position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-60%, -50%);
+    text-align: center;
+    color: white;
+    text-align: left;
+    display: grid
+;
+    grid-template-rows: 22px 1fr;
+     gap: 148px;
+   
+    width: 164px; 
+}
+
+.option-img-container {
+      position: relative;
+}
+
+.desctop-btn {
+    background-color: #997c00;
+}
+
+.img-author {
+
+font-weight: 400;
+font-size: 10px;
+line-height: 101%;
+color: #fff;
+}
+
+.img-header {
+  font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+text-transform: capitalize;
+color: #fff;
+}
+
+.img-text-container {
+    display: grid;
+    gap: 6px;
+}
+
+.window-btn {
+    background-color: #08f;
+}
+
+.bulb-container {
+    position: relative;
+}
+
+.bulb-content {
+      position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-30%, -50%);
+    text-align: center;
+    color: white;
+    text-align: left;
+    display: grid
+;
+    grid-template-rows: 22px 1fr;
+     gap: 116px;
+   
+    width: 293px; 
+}
+
+.bulb-text {
+
+font-weight: 400;
+font-size: 12px;
+line-height: 101%;
+color: #fff;
+}
+
+.bulb-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+text-transform: capitalize;
+color: #fff;
+}
+
+.bulb-btn {
+   background-color:  #49cfe8;
+}
+
+.dont-miss-text {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+color: #f65050;
+border-bottom: 1px solid #f65050;
+padding-bottom: 7px;
+}
+
+
+.dont-miss-header {
+    display: grid;
+    grid-template-columns: 870px 1fr;
+    gap: 30px;
+}
+
+.dont-miss-header-content {
+    display: grid;
+    grid-template-columns: 97px 1fr;
+    gap: 201px;
+    height: 43px;
+      border-bottom: 1px solid #393939;
+          align-items: center;
+}
+
+.more-svg {
+    width: 5px;
+    height: 4px;
+    
+}
+
+.dont-miss-list {
+    display: grid;
+    gap: 12px;
+    grid-auto-flow: column;
+    padding-bottom: 14px;
+}
+
+.dont-miss-button {
+    width: auto;
+    height: 21px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+
+}
+
+.all {
+   background: #fe4a51;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+.lifestyle {
+  background: #a56cbd;
+  padding-left: 16px;
+   padding-right: 16px;
+}
+
+.vogue {
+    background: #2ecc71;
+    padding-left: 12px;
+   padding-right: 12px;
+}
+
+.health {
+    background: #08f;
+    padding-left: 20px;
+   padding-right: 20px;
+}
+
+.travel {
+    background: #997c00;
+    padding-left: 16px;
+   padding-right: 16px;
+}
+
+.gadgets {
+   background: #49cfe8;
+   padding-left: 14px;
+   padding-right: 14px;
+}
+
+.world {
+     background: #08f;
+   padding-left: 15px;
+   padding-right: 15px;
+} 
+
+.more {
+    background: #4c60f5;
+    padding-left: 14px;
+    padding-right: 5px;
+      display: flex
+;
+    align-items: center;
+    gap: 5px;
+}
+
+
