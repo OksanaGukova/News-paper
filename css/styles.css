@@ -313,6 +313,10 @@ color: #fff;
     gap: 6px;
 }
 
+.dont-miss {
+    padding-bottom: 36px;
+}
+
 .img-container {
     display: grid;
     grid-template-columns: repeat(2, 235px);
@@ -639,3 +643,45 @@ color: #393939;
         grid-template-columns: 70px 1fr;
         gap: 12px;
     }
+
+    .enter-text {
+        font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+color: #f65050;
+padding-bottom: 6px;
+border-bottom: 1px solid #f65050;;   }
+
+    .enter-svg {
+        width: 6px;
+        height: 10px;
+    }
+
+    .enter-btn {
+        width: 24px;
+        height: 24px;
+        background-color: #F65050;
+    }
+
+    .enter-btn:hover {
+        background-color: rgba(246, 80, 80, 0.6); 
+    }
+
+    .enter-header {
+        display: grid;
+        grid-auto-flow: column;
+            justify-content: space-between;
+        border-bottom: 1px solid #393939;
+            align-items: center;
+    }
+
+    .woman {
+        padding-top: 25px;
+    }
+
+    .hiden {
+        width: 80px;
+        border-bottom: 1px solid #f65050;;
+    }
+
+  
