@@ -644,6 +644,10 @@ color: #393939;
         gap: 12px;
     }
 
+    .entertainment {
+        padding-bottom: 50px;
+    }
+
     .enter-text {
         font-family: var(--second-family);
 font-weight: 500;
@@ -677,6 +681,7 @@ border-bottom: 1px solid #f65050;;   }
 
     .woman {
         padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .hiden {
@@ -684,4 +689,181 @@ border-bottom: 1px solid #f65050;;   }
         border-bottom: 1px solid #f65050;;
     }
 
+    .woman-img-container {
+        position: relative;
+    }
+
+    .woman-img-txt-container {
+        position: absolute;
+       top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 197px;
+text-align: left;
+    }
+
+    .woman-img-btn {
+        width: 80px;
+height: 24px;
+background: #08f;
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+    }
   
+
+.woman-img-header {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 24px;
+color: #fff;
+margin-bottom: 29px;
+}
+
+.woman-img-txt {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 126%;
+color: #fff;
+margin-top: 8px;
+}
+
+.people-list {
+    display: grid;
+    grid-template-columns: repeat(3, 332px);
+    gap: 69px;
+}
+
+.people-list-item {
+    gap: 17px;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+}
+
+.people-img-container {
+    position: relative;
+}
+
+.people-img-btn {
+       position: absolute;
+        top: 15%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+text-align: left;
+
+font-weight: 400;
+font-size: 8px;
+color: #fff;
+width: auto;
+height: 16px;
+padding: 4px;
+}
+
+.woman-btn {
+    background: #08f;
+}
+
+.man-btn {
+    background: #49cfe8;
+}
+
+.woman-fase-btn {
+    background: #2ecc71;
+}
+
+.people-img-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 15px;
+color: #393939;
+margin-top: 12px;
+}
+
+.sport {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+color: #f65050;
+}
+
+.sports-container {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    gap: 30px;
+}
+
+.sport-container {
+    display: grid;
+    grid-template-columns: 61px 1fr;
+    gap: 235px;
+}
+
+.sport-btn-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 12px;
+}
+
+.sport-btn-list:last-child {
+    gap: 10px;
+}
+
+.sport-btn {
+    width: auto;
+height: 24px;
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+}
+
+.football {
+    background: #a56cbd;
+    padding: 3px 16px;
+}
+
+.cricket {
+    background: #2ecc71;
+    padding: 3px 12px;
+}
+
+.basketball {
+    background: #08f;
+    padding: 3px 16px;
+}
+
+.badminton {
+    background: #997c00;
+    padding: 3px 18px;
+}
+
+.boxing {
+    background: #49cfe8;
+    padding: 3px 17px;
+}
+
+.esports {
+    background: #08f;
+    padding: 3px 12px;
+}
+
+.sport-svg {
+    width: 9px;
+    height: 6px;
+}
+
+.svg-sport {
+    width: 24px;
+    background-color: #F65050;
+        display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-sport:hover {
+  background-color: rgba(246, 80, 80, 0.6); 
+}
