@@ -787,6 +787,8 @@ margin-top: 12px;
 font-weight: 500;
 font-size: 24px;
 color: #f65050;
+padding-bottom: 11px;
+border-bottom: 1px solid #f65050;;
 }
 
 .sports-container {
@@ -799,12 +801,14 @@ color: #f65050;
     display: grid;
     grid-template-columns: 61px 1fr;
     gap: 235px;
+     border-bottom: 1px solid #393939;
 }
 
 .sport-btn-list {
     display: grid;
     grid-auto-flow: column;
     gap: 12px;
+   
 }
 
 .sport-btn-list:last-child {
@@ -866,4 +870,76 @@ color: #fff;
 
 .svg-sport:hover {
   background-color: rgba(246, 80, 80, 0.6); 
+}
+
+.stadiun-container {
+    position: relative;
+}
+
+.stadium-btn {
+     position: absolute;
+     top: 25%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+text-align: left;
+background: #2ecc71;
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+width: 56px;
+height: 21px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stadium-img {
+    padding-top: 41px;
+    margin-bottom: 25px;
+}
+
+.stadium-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 18px;
+color: #393939;
+}
+
+.stadium-text {
+font-weight: 250;
+font-size: 14px;
+line-height: 111%;
+color: rgba(57, 57, 57, 0.6);
+}
+
+.connected {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+color: #f65050;
+padding-bottom: 25px;
+border-bottom: 1px solid #f65050;
+width: 84px;
+}
+
+.line {
+ border-bottom: 1px solid #393939;
+
+height: 0px;
+}
+
+.connected-content {
+    display: grid;
+    grid-template-columns: 393px 1fr 270px;
+    gap: 30px;
+}
+
+.player-list {
+    padding-top: 41px;
+}
+
+.stadium-text-container {
+    display: grid;
+    gap: 12px;
 }
