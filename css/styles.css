@@ -937,9 +937,140 @@ height: 0px;
 
 .player-list {
     padding-top: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 361px;
 }
 
 .stadium-text-container {
     display: grid;
     gap: 12px;
+}
+
+.player-list-item {
+  display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 14px;
+}
+
+.player-list-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.player-header {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+color: #393939;
+}
+
+.connected-container {
+    padding-top: 25px;
+}
+
+.connected-svg {
+    width: 16px;
+    height: 16px;
+}
+
+.connected-list {
+    width: 130px;
+height: 40px;
+display: grid;
+grid-template-columns: 16px 1fr;
+gap: 13px;
+padding: 12px 10px;
+}
+
+.twiter {
+    background: #42c0f5;
+}
+
+.be {
+    background: #1b7bfd;
+}
+
+.circle {
+    background: #f7679d;
+}
+
+.connected-list-item {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.connected-svg-container {
+    padding: 12px;
+}
+
+.connected-text-content {
+
+font-weight: 500;
+font-size: 8px;
+color: #fff;
+}
+
+.ad {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 36px;
+color: #fff;
+  position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
+.dish-container {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.style-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+color: #f65050;
+padding-bottom: 6px;
+border-bottom: 1px solid #f65050;;
+}
+
+.style-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 13px;
+}
+
+.style-header-container {
+    display: grid;
+    grid-template-columns: 87px 1fr;
+    gap: 387px;
+    border-bottom: 1px solid #393939;;
+}
+
+.life-style-container {
+    display: grid;
+    grid-template-columns: 870px 1fr;
+    gap: 21px;
+}
+
+.style-btn {
+    width: auto;
+    height: 24px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+}
+
+.style-svg-btn {
+    width: 24px;
+height: 24px;
 }
