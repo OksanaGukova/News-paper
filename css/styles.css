@@ -654,12 +654,14 @@ font-weight: 500;
 font-size: 24px;
 color: #f65050;
 padding-bottom: 6px;
-border-bottom: 1px solid #f65050;;   }
+  }
 
     .enter-svg {
         width: 6px;
         height: 10px;
     }
+
+
 
     .enter-btn {
         width: 24px;
@@ -671,11 +673,23 @@ border-bottom: 1px solid #f65050;;   }
         background-color: rgba(246, 80, 80, 0.6); 
     }
 
+    .enter-red {
+        border: 1px solid #f65050;
+width: 140px;
+height: 0px;
+    }
+
+    .enter-black {
+        border: 1px solid #393939;
+width: 1170px;
+height: 0px;
+    }
+
     .enter-header {
         display: grid;
         grid-auto-flow: column;
             justify-content: space-between;
-        border-bottom: 1px solid #393939;
+       
             align-items: center;
     }
 
@@ -923,11 +937,7 @@ border-bottom: 1px solid #f65050;
 width: 84px;
 }
 
-.line {
- border-bottom: 1px solid #393939;
 
-height: 0px;
-}
 
 .connected-content {
     display: grid;
@@ -1051,7 +1061,7 @@ border-bottom: 1px solid #f65050;;
 .style-header-container {
     display: grid;
     grid-template-columns: 87px 1fr;
-    gap: 387px;
+    gap: 355px;
     border-bottom: 1px solid #393939;;
 }
 
@@ -1073,4 +1083,201 @@ color: #fff;
 .style-svg-btn {
     width: 24px;
 height: 24px;
+}
+
+.travel-btn {
+    background: #a56cbd;
+    padding: 3px 12px;
+}
+
+.recipes{
+    background: #2ecc71;
+    padding: 3px 11px;
+}
+
+.music {
+    background: #997c00;
+    padding: 3px 15px;
+}
+
+.shope-list {
+    display: grid;
+    grid-template-columns: repeat(2, 420px);
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.fitness {
+  
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+width: 97px;
+height: 21px;
+  position: absolute;
+     top: 10%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.health-btn {
+background: #997c00;
+}
+
+.fitnes-btn {
+    background: #2ecc71;
+}
+
+.shope-list-item {
+    position: relative;
+}
+
+.shop-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+text-transform: capitalize;
+color: #393939;
+margin-top: 6px;
+margin-bottom: 12px;
+}
+
+.shop-text {
+font-weight: 250;
+font-size: 14px;
+line-height: 111%;
+color: rgba(57, 57, 57, 0.6);
+margin-bottom: 25px;
+}
+
+.shop-img {
+    margin-bottom: 25px;
+}
+
+.house-header {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+color: #393939;
+margin-top: 6px;
+}
+
+.house-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 97px;
+    row-gap: 23px;
+    margin-bottom: 48px;
+}
+
+.house-list-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 12px;
+}
+
+.woman-shadow-container {
+    position: relative;
+}
+
+.woman-content {
+       display: grid;
+    grid-template-columns: 219px 180px;
+    gap: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.purchase {
+    width: 180px;
+height: 44px;
+font-weight: 700;
+font-size: 18px;
+color: #fff;
+background: #f65050;
+}
+
+.woman-shadow-text {
+
+font-weight: 400;
+font-size: 14px;
+line-height: 151%;
+color: #fff;
+}
+
+.woman-shadow-text-red {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 151%;
+color: #f65050;
+}
+
+.latest-updates {
+    width: 270px;
+height: 195px;
+background: #dedada;
+text-align: center;
+padding: 25px;
+margin-bottom: 25px;
+}
+
+.updates-text {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 164%;
+color: #2d2d2d;
+}
+
+.update-btn {
+    width: 220px;
+height: 40px;
+}
+
+.white-btn {
+  background: #fff;
+font-weight: 400;
+font-size: 12px;
+line-height: 164%;
+color: #2d2d2d;
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
+.red-btn {
+background: #f65050;
+font-weight: 700;
+font-size: 18px;
+line-height: 164%;
+color: #fff;
+}
+
+.categories {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+color: #f65050;
+margin-bottom: 10px;
+}
+
+.red-part {
+    border: 1px solid #f65050;
+width: 72px;
+height: 0px;
+}
+
+.black-part {
+    border: 1px solid #393939;
+width: 270px;
+height: 0px;
+}
+
+.lines {
+    display: flex;
 }
