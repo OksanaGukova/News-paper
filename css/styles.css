@@ -1180,6 +1180,7 @@ margin-top: 6px;
 
 .woman-shadow-container {
     position: relative;
+    margin-bottom: 50px;
 }
 
 .woman-content {
@@ -1280,4 +1281,160 @@ height: 0px;
 
 .lines {
     display: flex;
+}
+
+.categories-svg {
+    width: 6px;
+    height: 6px;
+background: #2d2d2d;
+}
+
+.categories-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 111%;
+color: #393939;
+}
+
+.categories-numbers {
+font-weight: 400;
+font-size: 12px;
+line-height: 111%;
+color: #fff;
+width: 24px;
+height: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.life {
+    background: #f65050;
+}
+
+.worlds {
+    background: #a56cbd;
+}
+
+.foods {
+    background: #c23785;
+}
+
+.tachnology {
+    background: #4c60f5;
+}
+
+.sports-text {
+    background: #08f;
+}
+
+.footballs {
+    background: #f7679d;
+}
+
+.crickets {
+    background: #42c0f5;
+}
+
+.covid {
+    background: #49cfe8;
+}
+
+.categories-list {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+}
+
+.categories-text-container {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 3px;
+    align-items: center;
+}
+
+.categories-list-item {
+    display: grid;
+    gap: 13px;
+    margin-top: 25px;
+}
+
+.video-container {
+    width: 870px;
+}
+
+.video {
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+color: #f65050;
+margin-bottom: 6px;
+}
+
+.video-btn {
+    width: auto;
+height: 24px;
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+}
+
+.travel-btn {
+    background: #a56cbd;
+}
+
+.video-header-container {
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    gap: 380px;
+
+}
+
+.video-btn-svg {
+width: 24px;
+height: 24px;
+background-color: #F65050;
+}
+
+.video-btn-svg:hover {
+      background-color: rgba(246, 80, 80, 0.6); 
+}
+
+.video-svg {
+    width: 9px;
+    height: 6px;
+}
+
+.video-btn-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 12px;
+}
+
+.video-red {
+border: 1px solid #f65050;
+width: 140px;
+height: 0px;
+}
+
+.video-black {
+    border: 1px solid #393939;
+width: 870px;
+height: 0px;
+}
+
+.desctop-img-container {
+    margin-top: 18px;
+    position: relative;
+}
+
+.desctop-svg {
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
 }
