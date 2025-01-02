@@ -1428,13 +1428,157 @@ height: 0px;
 .desctop-img-container {
     margin-top: 18px;
     position: relative;
+    margin-bottom: 25px;
 }
 
 .desctop-svg {
     position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70px;
-  height: 70px;
+
+}
+
+.desctop-content {
+position: absolute;
+    top: 50%;
+    left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.desctop-img-btn {
+        margin-bottom: 197px;
+        background: #fe4a51;
+}
+
+.esport {
+
+  width: 59px;
+height: 21px;
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+
+.desctop-text {
+
+font-weight: 400;
+font-size: 12px;
+line-height: 101%;
+color: #fff;
+}
+
+.desctop-header {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 36px;
+color: #fff;
+}
+
+.video-img-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+ 
+}
+
+.video-list {
+    position: relative;
+}
+
+.desc-img-btn, .desc, .people-btn {
+       position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+.desc {
+    background: #49cfe8;
+}
+
+.desc-img-btn {
+    background: #26387a;
+}
+
+.people-btn {
+    background: #fb8282;
+}
+
+.video-img {
+    margin-bottom: 25px;
+}
+
+.video-img-header {
+    margin-top: 6px;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+color: #393939;
+}
+
+.img-list {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+}
+
+.circle-svg {
+   width: 36px;
+   height: 36px;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle-content {
+    border-radius: 100%;
+background-color: rgba(194, 55, 133, 0.6);
+     width: 146px;
+height: 146px;
+       position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-text {
+     position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+font-weight: 500;
+font-size: 18px;
+color: #fff;
+}
+
+.footer {
+    background-color: #393939;;
+}
+
+.footer-container {
+    padding: 44px 117px 82px 135px;
+}
+
+.logo-container {
+width: 270px;
+}
+
+.logo-text {
+   
+font-weight: 400;
+font-size: 14px;
+line-height: 148%;
+color: #fff;
+margin-top: 31px;
+margin-bottom: 35px;
 }
