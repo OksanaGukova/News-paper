@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Oswald:wght@200..700&family=Poppins:wght@400;600&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Oswald:wght@200..700&family=Poppins:wght@400;600&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -739,7 +741,7 @@
         <li class="categories-list">
            <div class="categories-text-container">
                 <svg class="categories-svg">
-                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                 <use href="./img/sprite.svg#icon-arrow-right"></use></svg>
                 <p class="categories-text">Sports</p>
            </div>
             <p class="categories-numbers sports-text">42</p>
@@ -775,7 +777,7 @@
 </div>
 </div>
  </div>
-</div>
+
     </section>
     <section class="video-section">
       <div class="container">
@@ -868,50 +870,74 @@
         <div class="logo-container">
             <img src="./img/Logo-Final-Whaite-1-min.png" alt="logo" width="247" height="62">
             <p class="logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, pellentesque dictum posuere id diam rutrum.</p>
-            <ul>
-                <li>
-                    <svg></svg>
+            <ul class="social-list">
+                <li class="svg-list facebook">
+                    <svg class="header-svg">
+                        <use href="./img/sprite.svg#icon-facebook">
+                        </use>
+                    </svg>
                 </li>
-                <li>
-                    <svg></svg>
+                <li class="svg-list twitter">
+                    <svg class="header-svg">
+                        <use href="./img/sprite.svg#icon-twiter">
+                        </use>
+                    </svg>
                 </li>
-                <li>
-                    <svg></svg>
+                <li class="svg-list instagram">
+                    <svg class="header-svg">
+                        <use href="./img/sprite.svg#icon-instagram">
+                        </use>
+                    </svg>
                 </li>
-                <li>
-                    <svg></svg>
+                <li class="svg-list youtube">
+                    <svg class="header-svg">
+                        <use href="./img/sprite.svg#icon-youtube">
+                        </use>
+                    </svg>
                 </li>
             </ul>
           </div>
-          <div>
-            <p>Photo gallery</p>
-            <ul>
-                <li><img src="" alt="tree" width="85" height="85"></li>
-                <li><img src="" alt="crab" width="85" height="85"></li>
-                <li><img src="" alt="house" width="85" height="85"></li>
-                <li><img src="" alt="watch" width="85" height="85"></li>
-                <li><img src="" alt="dish" width="85" height="85"></li>
-                <li><img src="" alt="bread" width="85" height="85"></li>
+          <div class="footer-img">
+            <p class="footer-text">Photo gallery</p>
+            <div class="lines">
+                <div class="footer-img-red"></div>
+                <div class="footer-img-black"></div>
+            </div>
+            <ul class="footer-img-list">
+                <li><img src="./img/Image38-min.png" alt="tree" width="85" height="85"></li>
+                <li><img src="./img/Image39-min.png" alt="crab" width="85" height="85"></li>
+                <li><img src="./img/Image40-min.png" alt="house" width="85" height="85"></li>
+                <li><img src="./img/Image41-min.png" alt="watch" width="85" height="85"></li>
+                <li><img src="./img/Image42-min.png" alt="dish" width="85" height="85"></li>
+                <li><img src="./img/Image43-min.png" alt="bread" width="85" height="85"></li>
             </ul>
           </div>
-          <div>
-            <p>Tags</p>
-            <ul>
-                <li><button>Football</button></li>
-                <li><button>Cricket</button></li>
-                <li><button>Covid 19</button></li>
-                <li><button>Life Style</button></li>
-                <li><button>Tranding News</button></li>
-                <li><button>Technology</button></li>
-                <li><button>Travel</button></li>
+          <div class="tags">
+            <p class="footer-tags">Tags</p>
+            <div class="lines">
+                <div class="footer-img-red"></div>
+                <div class="footer-img-black"></div>
+            </div>
+            <ul class="footer-button-list">
+                <li><button type="button" class="footer-btn footer-football">Football</button></li>
+                <li><button type="button" class="footer-btn footer-cricket">Cricket</button></li>
+                <li><button type="button" class="footer-btn footer-covid">Covid 19</button></li>
+                <li><button type="button" class="footer-btn footer-life">Life Style</button></li>
+                <li><button type="button" class="footer-btn footer-tranding">Tranding News</button></li>
+                <li><button type="button" class="footer-btn footer-technology">Technology</button></li>
+                <li><button type="button" class="footer-btn footer-travel">Travel</button></li>
             </ul>
           </div>
-          <div>
-            <p>Stay In Touch</p>
-            <p>To be updated with all the latest news, offers
+          <div class="footer-descr">
+            <p class="footer-header">Stay In Touch</p>
+            <div class="lines">
+                <div class="footer-img-red"></div>
+                <div class="footer-img-black"></div>
+            </div>
+            <p class="footer-txt">To be updated with all the latest news, offers
             and special annoucements.</p>
-            <button>Your email address</button>
-            <button>Subscribe</button>
+            <button type="button" class="footer-button email-btn">Your email address</button>
+            <button type="button" class="footer-button subscribe-btn">Subscribe</button>
         </div>
    </div>
 </footer>

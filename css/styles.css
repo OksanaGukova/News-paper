@@ -1566,11 +1566,15 @@ color: #fff;
 }
 
 .footer-container {
-    padding: 44px 117px 82px 135px;
+    padding: 0 117px 82px 135px;
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .logo-container {
 width: 270px;
+padding-top: 44px;
+gap: 30px;
 }
 
 .logo-text {
@@ -1581,4 +1585,148 @@ line-height: 148%;
 color: #fff;
 margin-top: 31px;
 margin-bottom: 35px;
+}
+
+.footer-text {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 101%;
+text-transform: capitalize;
+color: #fff;
+margin-bottom: 10px;
+}
+
+.footer-img {
+    padding-top: 50px;
+}
+
+.footer-img-red {
+    border: 1px solid #f65050;
+width: 70px;
+height: 0px;
+}
+
+.footer-img-black {
+    border: 1px solid #fff;
+width: 200px;
+height: 0px;
+}
+
+.footer-img-list {
+    margin-top: 13px;
+    display: grid;
+    grid-template-columns: repeat(3, 85px);
+    grid-template-rows: repeat(2, 85px);
+    column-gap: 7px;
+    row-gap: 6px;
+}
+
+.tags {
+    padding-top: 44px;
+} 
+
+.footer-tags {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+margin-bottom: 4px;
+}
+
+.footer-button-list {
+    margin-top: 24px;
+    display: flex;
+ width: 270px;
+  column-gap: 4px;
+  row-gap: 10px;
+       flex-wrap: wrap;
+
+}
+
+
+.footer-descr {
+width: 288px;
+}
+
+.footer-btn {
+    width: auto;
+height: 24px;
+padding: 5px 6px;
+
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+
+.footer-football {
+   background: #f65050;
+   
+}
+
+.footer-cricket {
+    background: #08f;
+}
+
+.footer-covid {
+    background: #a56cbd;
+}
+
+.footer-life {
+    background: #997C00;
+}
+
+.footer-tranding {
+    background: #FFB8B8;
+}
+
+.footer-technology {
+    background: #49cfe8;
+}
+
+.footer-travel {
+    background: #4281ff;
+}
+
+.footer-descr {
+    padding-top: 44px;
+}
+
+.footer-header {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+margin-bottom: 4px;
+}
+
+.footer-txt {
+    margin-top: 23px;
+font-weight: 400;
+font-size: 14px;
+line-height: 149%;
+color: #fff;
+}
+
+.footer-button {
+    width: 270px;
+height: 40px;
+}
+
+.email-btn {
+    background: #fff;
+font-weight: 400;
+font-size: 12px;
+line-height: 164%;
+color: #c4c4c4;
+}
+
+.subscribe-btn {
+
+font-weight: 700;
+font-size: 18px;
+line-height: 164%;
+color: #fff;
+background: #f65050;
+margin-top: 10px;
 }
